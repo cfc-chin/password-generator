@@ -1,0 +1,16 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate passwords with bcrypt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "StevenChin",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "inquirer": "^1.1.2"
+  }
+}
